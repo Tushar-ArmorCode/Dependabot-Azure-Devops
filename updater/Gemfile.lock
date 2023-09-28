@@ -1,29 +1,8 @@
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: https://github.com/mburumaxwell/dependabot-core.git
+  revision: c1148dd2df82b48d3adad914fdbe607474e86e33
+  ref: c1148dd
   specs:
-    addressable (2.8.5)
-      public_suffix (>= 2.0.2, < 6.0)
-    ast (2.4.2)
-    aws-eventstream (1.2.0)
-    aws-partitions (1.835.0)
-    aws-sdk-codecommit (1.60.0)
-      aws-sdk-core (~> 3, >= 3.184.0)
-      aws-sigv4 (~> 1.1)
-    aws-sdk-core (3.185.1)
-      aws-eventstream (~> 1, >= 1.0.2)
-      aws-partitions (~> 1, >= 1.651.0)
-      aws-sigv4 (~> 1.5)
-      jmespath (~> 1, >= 1.6.1)
-    aws-sdk-ecr (1.65.0)
-      aws-sdk-core (~> 3, >= 3.184.0)
-      aws-sigv4 (~> 1.1)
-    aws-sigv4 (1.6.0)
-      aws-eventstream (~> 1, >= 1.0.2)
-    base64 (0.1.1)
-    citrus (3.0.2)
-    commonmarker (0.23.10)
-    crack (0.4.5)
-      rexml
     dependabot-bundler (0.234.0)
       dependabot-common (= 0.234.0)
     dependabot-cargo (0.234.0)
@@ -95,6 +74,33 @@ GEM
       dependabot-common (= 0.234.0)
     dependabot-terraform (0.234.0)
       dependabot-common (= 0.234.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.836.0)
+    aws-sdk-codecommit (1.60.0)
+      aws-sdk-core (~> 3, >= 3.184.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.185.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-ecr (1.65.0)
+      aws-sdk-core (~> 3, >= 3.184.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.6.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+    base64 (0.1.1)
+    citrus (3.0.2)
+    commonmarker (0.23.10)
+    crack (0.4.5)
+      rexml
     diff-lcs (1.5.0)
     docker_registry2 (1.18.0)
       rest-client (>= 1.8.0)
@@ -153,7 +159,7 @@ GEM
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
-    psych (5.1.1)
+    psych (5.1.1.1)
       stringio
     public_suffix (5.0.3)
     racc (1.7.1)
@@ -225,7 +231,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  dependabot-omnibus (~> 0.234.0)
+  dependabot-omnibus!
   http (~> 5.1)
   octokit (= 6.1.1)
   rspec
